@@ -17,25 +17,20 @@ const MainBody = () => {
     const [postData,setPostData]=useState([])
 
     const {user} = useSelector(state => state.auth)
-    console.log(user)
+    console.log(user.name)
 
     const postHandler=(e)=>{
         e.preventDefault()  
 
         db.collection('posts').add({
             title: post,
+            name: user.name,
             profilePic: user.photo ,
             image: url,
             timestamp: firebase.firestore.FieldValue.serverTimestamp(),
             
-
         })
-        .then(result=>{
-          console.log(result)
-        })
-        .catch(err=>{
-          console.log(err)
-        })
+        
 
         setUrl('')
         setPost('')
