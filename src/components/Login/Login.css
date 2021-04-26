@@ -1,0 +1,21 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child__div {
+  height: 60vh;
+  width: 40vw;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.548);
+}
+.child__div > img {
+  height: 100px;
+  object-fit: contain;
+}

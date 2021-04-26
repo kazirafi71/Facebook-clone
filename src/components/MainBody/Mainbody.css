@@ -1,0 +1,89 @@
+.mainBody {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.storyReal__style {
+  display: flex;
+  align-items: center;
+}
+
+.massageBody {
+  width: 100%;
+  margin: 30px 0px;
+  padding: 20px;
+}
+
+.massage__top {
+  display: flex;
+}
+
+.massage__top > form > input {
+  border: none;
+  background-color: rgba(128, 128, 128, 0.075);
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.massage__top > form > input:focus {
+  outline: none;
+}
+
+.massage__top > form {
+  width: 100%;
+}
+
+.post__input {
+  width: 400px;
+  margin: 0px 10px;
+}
+
+.massage__bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  color: gray;
+  
+}
+
+.felling__activities {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  
+}
+.photos {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.live__video {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  
+}
+.felling__activities>h6{
+    margin: 0px 10px;
+}
+.live__video>h6{
+    margin: 0px 10px;
+}
+.photos>h6{
+    margin: 0px 10px;
+}
+
+.felling__activities>.MuiSvgIcon-root{
+    color: orange !important;
+
+}
+.live__video>.MuiSvgIcon-root{
+    color: red!important;
+
+}
+.photos>.MuiSvgIcon-root{
+    color: green !important;
+
+}

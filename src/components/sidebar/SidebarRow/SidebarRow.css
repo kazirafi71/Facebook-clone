@@ -1,0 +1,13 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 10px ;
+}
+
+.sidebarRow>h6{
+    margin-left: 10px;
+}
+
+.sidebarRow>.MuiSvgIcon-root{
+    color: rgb(76, 29, 206) !important;
+}
