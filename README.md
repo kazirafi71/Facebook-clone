@@ -5,12 +5,12 @@
 3. You can see another users post here
 
 ###Technologoy:<br/>
-1.React
-2.Redux
-3.Firebase
-4.Material UI
-5.React Bootstrap
-6.React Routing
+1.React<br/>
+2.Redux<br/>
+3.Firebase<br/>
+4.Material UI<br/>
+5.React Bootstrap<br/>
+6.React Routing<br/>
 
 
 live:https://fb-clone-4c688.web.app
